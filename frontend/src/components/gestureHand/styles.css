@@ -1,0 +1,38 @@
+.gestures{
+    display: flex;
+    position: absolute;
+    bottom: 5rem;
+}
+
+.gestures .firstGesture, 
+.gestures .secondGesture,
+.gestures .thirdGesture {
+    background-color: var(--color-button-white);
+    border-radius: 32px;
+    width: 20rem;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
+.gestures .firstGesture:hover, 
+.gestures .secondGesture:hover,
+.gestures .thirdGesture:hover {
+    border: 5px solid var(--color-button-hover);
+}
+
+.icon{
+    transition: 0.2s;
+}
+
+.firstGesture:hover > .icon,
+.gestures .secondGesture:hover > .icon,
+.gestures .thirdGesture:hover > .icon{
+    fill: var(--color-button-stroke-hover);
+}

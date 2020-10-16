@@ -1,0 +1,41 @@
+:root {
+    --color-background: #E2BF40;
+    --color-table: #FFFFFF;
+    --color-button-black: #000000;
+    --color-button-white: #FFFFFF;
+    --color-button-exit: #F35050;
+    --color-text-light: #FFFFFF;
+    --color-text-dark: #000000;
+    --color-placar-light: #FFFFFF;
+    --color-placar-dark: #E3E3E3;
+    --color-button-stroke-hover: #FF9900;
+    --color-button-hover: #FF7A00;
+
+    font-size: 60%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--color-background);
+}
+
+html, body, #root {
+    height: 100vh;
+}
+
+#root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 700px) {
+    :root {
+        font-size: 62.5%;
+    }
+}

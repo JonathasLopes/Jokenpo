@@ -1,0 +1,30 @@
+.table {
+    width: 50rem;
+    height: 50rem;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background: var(--color-table);
+}
+
+.table strong {
+    position: absolute;
+    font: 400 10rem Roboto;
+}
+
+.table .playerHand1 img{
+    transform: rotate(180deg);
+    width: 20rem;
+}
+
+.table .playerHand1,
+.table .playerHand2{
+    margin: 8rem;
+}
+
+.table .playerHand2 img{
+    width: 15rem;
+}

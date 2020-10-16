@@ -1,0 +1,24 @@
+.score{
+    position: absolute;
+    right: 10rem;
+}
+
+.pointOne,
+.pointTwo{
+    width: 10rem;
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 400 5rem Roboto;
+    border-radius: 16px;
+    margin: 2rem 0;
+}
+
+.pointOne{
+    background-color: var(--color-placar-light);
+}
+
+.pointTwo{
+    background-color: var(--color-placar-dark);
+}

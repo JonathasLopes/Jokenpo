@@ -1,0 +1,56 @@
+h1{
+    font: 800 10rem Poppins;
+    margin-bottom: 5rem;
+}
+
+#img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#img .logo{
+    width: 40rem;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons a{
+    text-decoration: none;
+    width: 100%;
+    height: 10rem;
+    border-radius: 32px;
+    font: 400 4rem Roboto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons .firstButton{
+    color: var(--color-text-dark);
+    background: var(--color-button-white);
+    margin-top: 5rem;
+    transition: 0.2s;
+}
+
+.buttons .firstButton:hover{
+    color: var(--color-text-light);
+    background: var(--color-button-hover);
+}
+
+.buttons .secondButton{
+    color: var(--color-text-light);
+    background: var(--color-button-black);
+    margin-top: 2rem;
+    transition: 0.2s;
+}
+
+.buttons .secondButton:hover{
+    color: var(--color-text-dark);
+    background: var(--color-button-hover);
+}
